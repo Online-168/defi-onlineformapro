@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PortFolio Olivier</title>
-</head>
-<body>
-  Base de la structure avec Twig
-</body>
-</html>
+{% extends "layouts/base.twig" %}
+
+{% block content %}
+  Page de base de la structure avec Twig
+  
+  {% include 'parts/main.twig' %}
+  <hr>
+  {% include 'parts/competences.twig' %}
+  <hr>
+{% endblock %}

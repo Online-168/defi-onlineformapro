@@ -1,0 +1,17 @@
+{
+  "name": "kl/defi_online",
+  "description": "Intégration du portfolio d'Olivier - Maquette fournie avec Figma",
+  "require": {
+    "twig/twig": "^3.4"
+  },
+  "authors": [
+    {
+      "name": "Kevin DUPONTREUE",
+      "email": "KDUPONTREUE@Codeur.ONLINE"
+    },
+    {
+      "name": "Lionel COTE",
+      "email": "L.COTE@Codeur.ONLINE"
+    }
+  ]
+}
