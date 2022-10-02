@@ -15,4 +15,10 @@ main h1 {
 main p {
   color: #6666ff;
   font-size: 18px;
+}
+
+p {
+  color: grey;
+  text-align: right;
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
