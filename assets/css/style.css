@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: rgb(255, 255, 230);
   width: 100%;
 }
 
@@ -10,10 +10,10 @@ main {
   border-radius: 7px;
 }
 main h1 {
-  color: #00f;
+  color: rgb(8, 0, 255);
 }
 main p {
-  color: #6666ff;
+  color: #6b66ff;
   font-size: 18px;
 }
 

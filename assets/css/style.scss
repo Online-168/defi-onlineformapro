@@ -1,6 +1,6 @@
-$encre: #00f;
+$encre: rgb(8, 0, 255);
 $encretxt: lighten($encre, 20%);
-$background: beige;
+$background: rgb(255, 255, 230);
 
 body {
   background-color: $background;
