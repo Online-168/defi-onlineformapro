@@ -1,5 +1,10 @@
+$encre: #00f;
+$encretxt: lighten($encre, 20%);
+$background: beige;
+
 body {
-  background-color: beige;
+  background-color: $background;
+  width: 100%;
 }
 
 main {
@@ -7,4 +12,13 @@ main {
   border: 2px solid black;
   padding: 10px 20px;
   border-radius: 7px;
+
+  h1 {
+    color: $encre;
+  }
+
+  p {
+    color: $encretxt;
+    font-size: 18px;
+  }
 }
