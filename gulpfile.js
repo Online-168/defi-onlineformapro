@@ -14,20 +14,13 @@ function helloTask() {
   console.log('hello');
 }
 
-// Watch scss AND html files, doing different things with each.
 function serve() {
 
-  // Serve files from the root of this project
   browserSync.init({
-    
       proxy: "defi_online"
-    
-      // server: {
-      //     baseDir: "./"
-      // }
   })
 
-  gulp.watch(["*/**/*.html", "*/**/*.css", "*/**/*.twig"]).on("change", reload);
+  gulp.watch(["*/**/*.html", "*/**/*.css", "*/**/*.twig", "*.php", "*/**/*.php"]).on("change", reload);
 }
 
 exports.build = series;

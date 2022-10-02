@@ -1,4 +1,4 @@
-$encre: rgb(14, 76, 248);
+$encre: blue;
 $encretxt: lighten($encre, 20%);
 $background: rgb(255, 255, 230);
 
@@ -20,6 +20,12 @@ main {
   p {
     color: $encretxt;
     font-size: 18px;
+    text-align: left;
+    &:last-child{
+      font-weight: bold;
+      color:rgb(238, 0, 255);
+      text-align: center;
+    }
   }
 }
 

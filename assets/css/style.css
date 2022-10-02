@@ -10,11 +10,17 @@ main {
   border-radius: 7px;
 }
 main h1 {
-  color: rgb(14, 76, 248);
+  color: blue;
 }
 main p {
-  color: #7196fb;
+  color: #6666ff;
   font-size: 18px;
+  text-align: left;
+}
+main p:last-child {
+  font-weight: bold;
+  color: rgb(238, 0, 255);
+  text-align: center;
 }
 
 p {
