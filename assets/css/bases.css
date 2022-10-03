@@ -24,25 +24,3 @@ main p:last-child {
   color: rgb(238, 0, 255);
   text-align: center;
 }
-
-p {
-  text-align: right;
-  font-style: italic;
-  color: rgb(118, 122, 123);
-}
-
-main p {
-  animation: fadeIn 10s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}

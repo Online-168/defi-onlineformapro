@@ -16,7 +16,7 @@ $twig->addExtension(new \Twig\Extension\DebugExtension());
 
 $template = $twig->load('index.twig');
 
-$data['test']='Juste pour voir passages de varaibles OK ;-) ! (\'Environ ligne 20 de l\'index général\'';
+$data['test']='Juste pour voir passages de varaibles OK ;-) !<br>(\'Environ ligne 20 de l\'index général\'';
 
 echo $template->render(
     [

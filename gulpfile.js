@@ -5,9 +5,9 @@ const reload = browserSync.reload;
 const { watch, src, dest, series } = require('gulp');
 
 function scss() {
-  return src('assets/css/style.scss')
+  return src('./assets/css/**/*.scss')
     .pipe(sass())
-    .pipe(dest('assets/css/'))
+    .pipe(dest('./assets/css/'))
 }
 
 function helloTask() {
