@@ -17,7 +17,7 @@ function helloTask() {
 function serve() {
 
   browserSync.init({
-      proxy: "defi_online"
+      proxy: "localhost/defi_online"
   })
 
   gulp.watch(["*/**/*.html", "*/**/*.css", "*/**/*.twig", "*.php", "*/**/*.php"]).on("change", reload);
