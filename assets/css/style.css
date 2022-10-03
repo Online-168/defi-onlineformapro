@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 220);
+  background-color: rgb(255, 254, 253);
   width: 100%;
 }
 
@@ -28,7 +28,7 @@ main p:last-child {
 p {
   text-align: right;
   font-style: italic;
-  color: rgb(118, 122, 123);
+  color: rgb(0, 68, 87);
 }
 
 main p {
