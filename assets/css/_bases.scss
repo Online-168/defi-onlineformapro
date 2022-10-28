@@ -1,10 +1,10 @@
-$inkTitle: #f87f28;
-$ink: #fff;
-$inkGrey: #bfbfbf;
+$orange: #f87f28;
+$grey: #bfbfbf;
 $background: #232323;
 
 body {
+  color: white;
+  font-size: 24px;
   background-color: $background;
   width: 100vh;
-  color: white;
 }
