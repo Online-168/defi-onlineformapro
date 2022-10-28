@@ -1,4 +1,54 @@
-.contactType {
-  color: $orange;
-  font-size: 50px;
+#contact {
+
+  margin: 50px;
+
+  .contactTitle {
+    margin: 20px 0 20px;
+    color: grey;
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: bold;
+  }
+
+  .contactType {
+    color: $orange;
+    font-size: 24px;
+  }
+
+  .boxContact {
+    display: flex;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 0 20px 30px;
+    line-height: 1.5;
+  }
+
+  .iconContact {
+    width: 43px;
+    height: 43px;
+    display: block;
+    background-size: cover;
+
+    &.adress {
+      background-image: url('../icons/contact_adress.svg');
+    }
+
+    &.mail {
+      background-image: url('../icons/contact_mail.svg');
+    }
+
+    &.phone {
+      background-image: url('../icons/contact_phone.svg');
+    }
+  }
+
+  .txt-24px {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+  }
 }
