@@ -1,10 +1,11 @@
-$encre: rgb(0, 26, 255);
-$encretxt: lighten($encre, 20%);
-$background: rgb(255, 254, 253);
+$inkTitle: #f87f28;
+$ink: #fff;
+$inkGrey: #bfbfbf;
+$background: #232323;
 
 body {
   background-color: $background;
-  width: 100%;
+  width: 100wh;
 }
 
 main {
@@ -14,18 +15,19 @@ main {
   border-radius: 7px;
 
   h2 {
-    color: $encre;
-    animation-delay: 1s;
+    color: $ink;
+    animation-delay: 10s;
     --animate-duration: 5s;
   }
 
   p {
-    color: $encretxt;
+    color: $ink;
     font-size: 18px;
     text-align: left;
-    &:last-child{
+
+    &:last-child {
       font-weight: bold;
-      color:rgb(238, 0, 255);
+      color: rgb(238, 0, 255);
       text-align: center;
     }
   }
