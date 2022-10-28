@@ -1,30 +1,4 @@
-
-
-
 body {
   background-color: #232323;
   width: 100wh;
-}
-
-main {
-  margin: 10px 20px;
-  border: 2px solid black;
-  padding: 10px 20px;
-  border-radius: 7px;
-}
-main h2 {
-  color: #fff;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-  --animate-duration: 5s;
-}
-main p {
-  color: #fff;
-  font-size: 18px;
-  text-align: left;
-}
-main p:last-child {
-  font-weight: bold;
-  color: rgb(238, 0, 255);
-  text-align: center;
 }/*# sourceMappingURL=bases.css.map */

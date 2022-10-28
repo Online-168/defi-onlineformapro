@@ -7,28 +7,3 @@ body {
   background-color: $background;
   width: 100wh;
 }
-
-main {
-  margin: 10px 20px;
-  border: 2px solid black;
-  padding: 10px 20px;
-  border-radius: 7px;
-
-  h2 {
-    color: $ink;
-    animation-delay: 10s;
-    --animate-duration: 5s;
-  }
-
-  p {
-    color: $ink;
-    font-size: 18px;
-    text-align: left;
-
-    &:last-child {
-      font-weight: bold;
-      color: rgb(238, 0, 255);
-      text-align: center;
-    }
-  }
-}
