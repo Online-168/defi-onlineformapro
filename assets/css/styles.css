@@ -55,7 +55,7 @@ body {
 
 nav {
   width: 100%;
-  height: 20vh;
+  height: 30vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -70,7 +70,47 @@ nav {
 }
 
 /* kikoo */
-.contactType {
+#contact {
+  margin: 50px;
+}
+#contact .contactTitle {
+  margin: 20px 0 20px;
+  color: grey;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: bold;
+}
+#contact .contactType {
   color: #f87f28;
-  font-size: 50px;
+  font-size: 24px;
+}
+#contact .boxContact {
+  display: flex;
+}
+#contact .infos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 0 20px 30px;
+  line-height: 1.5;
+}
+#contact .iconContact {
+  width: 43px;
+  height: 43px;
+  display: block;
+  background-size: cover;
+}
+#contact .iconContact.adress {
+  background-image: url("../icons/contact_adress.svg");
+}
+#contact .iconContact.mail {
+  background-image: url("../icons/contact_mail.svg");
+}
+#contact .iconContact.phone {
+  background-image: url("../icons/contact_phone.svg");
+}
+#contact .txt-24px {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */
