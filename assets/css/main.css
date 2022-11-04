@@ -1,0 +1,74 @@
+.containerDescription{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    margin-top: 2em;
+
+}
+.decription{
+    margin-left: 25rem;
+    width: 70%;
+    height: auto;
+    margin-right: 1.8em;
+}
+h1{
+    font-size: 0.875em;
+    margin-bottom:2.063em;
+}
+h2{
+    font-size: 4.5rem;
+    margin-bottom:1.5em;
+}
+p{
+    margin-right: 10em;
+    margin-bottom: 1.5em;
+    font-size: 1rem;
+}
+.imageDescription{
+width: 40%;
+
+}
+.buttonPortfolio{
+    width: 123px;
+    height: 47px;
+    border: #BB2323;
+    background-color: #BB2323;
+    border-radius: 25em;
+    font-size: 0.875rem;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 23px;
+}
+.buttonContact{
+    width: 131px;
+    height: 47px;
+    border: #F87F28 solid 2px;
+    border-radius: 25em;
+    font-size: 0.875rem;
+    color: #F87F28;
+    background-color: #232323;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+.clientBar{
+    margin-top: 12em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.75em;
+
+}
+.logoClient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoClient img{
+    width: 8%;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+
