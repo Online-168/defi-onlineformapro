@@ -65,8 +65,8 @@
   
   legend {
     font-size: 14px;
-    padding: 3px 20px 0 20px;
-    margin-left: 20px;
+    padding: 3px 15px;
+    margin-left: 10px;
     background-color: rgba(0,0,0,0);
   }
   
@@ -76,14 +76,4 @@
     background-color: $background;
   }
   
-  button.contact {
-    font-size: 14px;
-    margin-top: 40px;
-    color: #fff;
-    background-color: red;
-    border-radius: 45px;
-    width: 165px;
-    height: 47px;
-    border: none;
-  }
 }

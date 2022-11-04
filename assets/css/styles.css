@@ -1,16 +1,85 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+@import url("https://fonts.cdnfonts.com/css/roboto");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,21 +89,34 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -51,6 +133,28 @@ body {
   font-size: 24px;
   background-color: #232323;
   width: 100%;
+}
+
+button {
+  font-size: 14px;
+  margin-top: 40px;
+  color: #fff;
+  background-color: #BB2323;
+  border-radius: 45px;
+  height: 47px;
+  border: none;
+}
+button.contact {
+  width: 165px;
+}
+button.experiments {
+  width: 194px;
+}
+
+hr.tiret {
+  border: 3px solid #f87f28;
+  width: 73px;
+  margin-left: 0;
 }
 
 #navbar nav {
@@ -79,6 +183,29 @@ body {
 }
 
 /* kikoo */
+#experiments {
+  margin: 50px;
+}
+#experiments .experimentsTitle {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 60px;
+}
+#experiments hr.tiret {
+  border: 3px solid #f87f28;
+  width: 73px;
+  margin-left: 0;
+}
+#experiments .presentation {
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+#experiments button {
+  width: 194px;
+}
+
 #contact {
   margin: 50px;
 }
@@ -134,22 +261,12 @@ body {
 }
 #contact legend {
   font-size: 14px;
-  padding: 3px 20px 0 20px;
-  margin-left: 20px;
+  padding: 3px 15px;
+  margin-left: 10px;
   background-color: rgba(0, 0, 0, 0);
 }
 #contact input.contact, #contact textarea.contact {
   margin: 0.4rem;
   border: 0;
   background-color: #232323;
-}
-#contact button.contact {
-  font-size: 14px;
-  margin-top: 40px;
-  color: #fff;
-  background-color: red;
-  border-radius: 45px;
-  width: 165px;
-  height: 47px;
-  border: none;
 }/*# sourceMappingURL=styles.css.map */
