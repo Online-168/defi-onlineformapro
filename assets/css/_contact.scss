@@ -51,9 +51,41 @@
     line-height: 32px;
     font-weight: 500;
   }
-  
-  .form_description{
+
+  .form_description {
     font-size: 14px;
     line-height: 2;
   }
+
+  fieldset {
+    margin-top: 40px;
+    border:1px solid grey;
+    border-radius: 4px;
+  }
+  
+  legend {
+    font-size: 14px;
+    padding: 3px 20px 0 20px;
+    margin-left: 20px;
+    background-color: rgba(0,0,0,0);
+  }
+  
+  input.contact, textarea.contact {
+    margin: .4rem;
+    border:0;
+    background-color: $background;
+  }
+  
+  button.contact {
+    font-size: 14px;
+    margin-top: 40px;
+    color: #fff;
+    background-color: red;
+    border-radius: 45px;
+    width: 165px;
+    height: 47px;
+    border: none;
+  }
 }
+
+
