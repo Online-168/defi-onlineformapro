@@ -113,4 +113,8 @@ nav {
   font-size: 32px;
   line-height: 32px;
   font-weight: 500;
+}
+#contact .form_description {
+  font-size: 14px;
+  line-height: 2;
 }/*# sourceMappingURL=styles.css.map */
